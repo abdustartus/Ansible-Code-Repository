@@ -1,0 +1,18 @@
+# --- Security: NEVER push your AWS keys ---
+*.pem
+*.key
+
+# --- Ansible temporary files ---
+*.retry
+*.log
+.ansible/
+facts.cache
+
+# --- OS generated files ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Environment/Secret files ---
+.env
+vars/secrets.yml

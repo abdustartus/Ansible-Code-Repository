@@ -1,0 +1,6 @@
+- name: Install Docker on Jenkins and App hosts
+  hosts: jenkins,apps
+  become: yes
+  roles:
+    - docker
+
